@@ -25,7 +25,6 @@ jobs:
         
     - name: Generate patient records
       run: python stream-data.py
-      # Ensure this script's runtime is adjusted to stop after 2 minutes
       
     - name: Commit and push changes
       run: |
