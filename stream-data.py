@@ -20,23 +20,20 @@ def generate_patient_record(patient_id):
     }
     return record
 
-def stream_patient_records(filename='patient_records.txt', duration=120):
-    """Continuously generate and write patient records to a file for a specified duration."""
+def stream_patient_records(filename='patient_records.txt'):
+    """Continuously generate and write patient records to a file."""
     patient_id = 1
-    start_time = time.time()
-    with open(filename, 'a') as file:  # Open the file in append mode
-        while True:
-            current_time = time.time()
-            # Check if the duration is up
-            if current_time - start_time >= duration:
-                break
-            record = generate_patient_record(patient_id)
-            file.write(json.dumps(record) + '\n')  # Write the JSON string plus a newline character
-            file.flush()  # Ensure each record is written to disk immediately
-            print(f"Record {patient_id} written.")  # Optional: print a message to the console
-            time.sleep(1)  # Pause for a second
-            patient_id += 1
+    try:
+        with open(filename, 'a') as file:  # Open the file in append mode
+            while True:
+                record = generate_patient_record(patient_id)
+                file.write(json.dumps(record) + '\n')  # Write the JSON string plus a newline character
+                file.flush()  # Ensure each record is written to disk immediately
+                print(f"Record {patient_id} written.")  # Optional: print a message to the console
+                time.sleep(1)  # Pause for a second
+                patient_id += 1
+    except KeyboardInterrupt:
+        print("Patient record streaming stopped.")
 
-# The following line will start the function and generate records for 1 minute.
-# It is commented out to prevent automatic execution in this environment.
-# stream_patient_records()
+if __name__ == '__main__':
+    stream_patient_records()
