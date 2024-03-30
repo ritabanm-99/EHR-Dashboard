@@ -34,4 +34,4 @@ jobs:
         git diff --staged --quiet || git commit -m "Append new patient records"
         git push --set-upstream https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ritabanm-99/EHR-Dashboard.git main
       env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        MY_GITHUB_TOKEN: ${{ secrets.EHRdata }}
