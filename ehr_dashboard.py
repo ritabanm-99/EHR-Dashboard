@@ -18,7 +18,7 @@ def load_data(n_lines=100):
                     data.append(record)
                 except json.JSONDecodeError:
                     # Log the problematic line or handle it as needed
-                    st.warning(f"Skipping invalid JSON line: {line.strip()}")
+                    #st.warning(f"Skipping invalid JSON line: {line.strip()}")
                     continue
     except FileNotFoundError:
         st.error("File not found. Ensure the file path is correct.")
