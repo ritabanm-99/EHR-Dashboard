@@ -23,13 +23,15 @@ def generate_patient_record(patient_id):
 def stream_patient_records(filename='patient_records.txt', duration=60):
     """Continuously generate and write patient records to a file for a specified duration."""
     patient_id = 1
-    start_time = time.time()
-    with open(filename, 'a') as file:  # Open the file in append mode
-        while time.time() - start_time < duration:
+    end_time = time.time() + duration
+    with open(filename, 'a') as file:
+        while time.time() < end_time:
             record = generate_patient_record(patient_id)
-            file.write(json.dumps(record) + '\n')  # Write the JSON string plus a newline character
-            file.flush()  # Ensure each record is written to disk immediately
-            print(f"Record {patient_id} written.")  # Optional: print a message to the console
-            time.sleep(1)  # Pause for a second
+            file.write(json.dumps(record) + '\n')
+            file.flush()
+            print(f"Record {patient_id} written.")
+            time.sleep(1)
             patient_id += 1
-    print("Completed generating patient records for 1 minute.")
+
+if __name__ == '__main__':
+    stream_patient_records()
