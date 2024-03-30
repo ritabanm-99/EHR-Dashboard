@@ -7,6 +7,7 @@ on:
 jobs:
   generate-and-append-records:
     runs-on: ubuntu-latest
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -19,18 +20,19 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Install any dependencies your script might have
+        # If your script requires additional dependencies, install them here
         # pip install -r requirements.txt
         
     - name: Generate patient records
       run: python stream-data.py
-      # Adjust the script's runtime in the script itself to limit it to a couple of minutes
+      # Ensure this script's runtime is adjusted to stop after 2 minutes
       
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add patient_records.txt
-        git diff --staged --quiet || (git commit -m "Append new patient records" && git push)
+        git diff --staged --quiet || git commit -m "Append new patient records"
+        git push --set-upstream https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ritabanm-99/YOUR_REPOSITORY_NAME.git main
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
