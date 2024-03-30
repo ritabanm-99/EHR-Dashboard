@@ -20,7 +20,7 @@ def generate_patient_record(patient_id):
     }
     return record
 
-def stream_patient_records(filename='patient_records.txt', duration=60):
+def stream_patient_records(filename='patient_records.txt', duration=120):
     """Continuously generate and write patient records to a file for a specified duration."""
     patient_id = 1
     start_time = time.time()
