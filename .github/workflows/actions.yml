@@ -7,7 +7,7 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    timeout-minutes: 1
+    timeout-minutes: 2 # Adjusted to allow for longer script runtime
 
     steps:
     - name: Checkout repository
@@ -26,3 +26,11 @@ jobs:
 
     - name: Run the script
       run: python stream-data.py
+
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add patient_records.txt
+        git commit -m "Update patient records" -a || echo "No changes to commit"
+        git push
