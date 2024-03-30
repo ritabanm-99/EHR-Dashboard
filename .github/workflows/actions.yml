@@ -1,26 +1,27 @@
-name: Generate and Update Data
+name: Run on Star
+
 on:
-  schedule:
-    - cron: '0 * * * *' # Runs at the start of every hour
+  watch:
+    types: [started]
+
 jobs:
-  update-data:
+  run-script:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Check out repo
+    - name: Checkout repository
       uses: actions/checkout@v2
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-    - name: Run data generation script
-      run: python stream_data.py
-    - name: Commit and push if changes
-      run: |
-        git config --global user.email "ritabanm@buffalo.edu"
-        git config --global user.name "Ritaban Mitra"
-        git add -A
-        git commit -m "Update data" || echo "No changes to commit"
-        git push
+        python -m pip install --upgrade pip
+        # Add your dependencies installation command here, e.g.:
+        # pip install -r requirements.txt
+
+    - name: Run the script
+      run: python stream-data.py
