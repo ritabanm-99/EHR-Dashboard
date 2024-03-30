@@ -32,6 +32,6 @@ jobs:
         git config --local user.name "GitHub Action"
         git add patient_records.txt
         git diff --staged --quiet || git commit -m "Append new patient records"
-        git push --set-upstream https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ritabanm-99/YOUR_REPOSITORY_NAME.git main
+        git push --set-upstream https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ritabanm-99/EHR-Dashboard.git main
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
