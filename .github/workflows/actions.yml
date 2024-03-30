@@ -1,41 +1,36 @@
-name: Run Python Script and Update Records
+name: Generate Patient Records on Star
 
 on:
   watch:
     types: [started]
 
 jobs:
-  run-script-and-update:
+  generate-and-append-records:
     runs-on: ubuntu-latest
-    timeout-minutes: 2  # Adjust as needed
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+      
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Specify the Python version
-
+        python-version: '3.x'
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Example: pip install -r requirements.txt
-        # Add any necessary command to install your dependencies
-
-    - name: Run the script
+        # Install any dependencies your script might have
+        # pip install -r requirements.txt
+        
+    - name: Generate patient records
       run: python stream-data.py
-      env:
-        # If your script uses environment variables, set them here
-        EXAMPLE_ENV_VAR: 'value'
-
+      # Adjust the script's runtime in the script itself to limit it to a couple of minutes
+      
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add patient_records.txt
-        git diff --staged --quiet || git commit -m "Update patient records"
-        git push https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ritabanm-99/EHR-Dashboard.git
+        git diff --staged --quiet || (git commit -m "Append new patient records" && git push)
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
