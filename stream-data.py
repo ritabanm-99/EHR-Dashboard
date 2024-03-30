@@ -33,8 +33,3 @@ def stream_patient_records(filename='patient_records.txt', duration=60):
             time.sleep(1)  # Pause for a second
             patient_id += 1
     print("Completed generating patient records for 1 minute.")
-
-# To run the modified function:
-# if __name__ == '__main__':
-#     stream_patient_records()
-do it 
