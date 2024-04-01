@@ -25,3 +25,7 @@ To simulate a Electronic Health Record Database system, and perform streaming an
 1. `python3 -m venv .venv`
 
 2. `source .venv/bin/activate`
+
+3. `pip3 install streamlit`
+
+4. `streamlit run ehr_dashboard.py`
