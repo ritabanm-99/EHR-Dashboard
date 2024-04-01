@@ -22,5 +22,6 @@ To simulate a Electronic Health Record Database system, and perform streaming an
 
 * If you run into any issues with streamlit, try creating a virtual environment in the project directory and installing streamlit using the following commands:
 
-`python3 -m venv .venv`
-`source .venv/bin/activate`
+1. `python3 -m venv .venv`
+
+2. `source .venv/bin/activate`
