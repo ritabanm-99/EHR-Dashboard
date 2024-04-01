@@ -179,3 +179,63 @@
 {"patient_id": 58, "diagnosis": "Flu", "status": "New", "medication": "Medication C", "department": "Cardiology", "timestamp": "2024-03-31 18:56:19"}
 {"patient_id": 59, "diagnosis": "Asthma", "status": "New", "medication": "Medication D", "department": "Infectious Diseases", "timestamp": "2024-03-31 18:56:20"}
 {"patient_id": 60, "diagnosis": "Hypertension", "status": "Ongoing", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-03-31 18:56:21"}
+{"patient_id": 1, "diagnosis": "Flu", "status": "New", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:11"}
+{"patient_id": 2, "diagnosis": "Diabetes", "status": "Resolved", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:12"}
+{"patient_id": 3, "diagnosis": "Hypertension", "status": "Ongoing", "medication": "Medication C", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:13"}
+{"patient_id": 4, "diagnosis": "Diabetes", "status": "Resolved", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:14"}
+{"patient_id": 5, "diagnosis": "COVID-19", "status": "New", "medication": "Medication D", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:15"}
+{"patient_id": 6, "diagnosis": "Hypertension", "status": "Ongoing", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:16"}
+{"patient_id": 7, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:17"}
+{"patient_id": 8, "diagnosis": "Asthma", "status": "Ongoing", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:18"}
+{"patient_id": 9, "diagnosis": "Asthma", "status": "Resolved", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:19"}
+{"patient_id": 10, "diagnosis": "COVID-19", "status": "New", "medication": "Medication C", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:20"}
+{"patient_id": 11, "diagnosis": "COVID-19", "status": "New", "medication": "Medication B", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:21"}
+{"patient_id": 12, "diagnosis": "Asthma", "status": "New", "medication": "Medication A", "department": "Cardiology", "timestamp": "2024-04-01 21:58:22"}
+{"patient_id": 13, "diagnosis": "Asthma", "status": "New", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:23"}
+{"patient_id": 14, "diagnosis": "Flu", "status": "Resolved", "medication": "Medication C", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:24"}
+{"patient_id": 15, "diagnosis": "Hypertension", "status": "New", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:25"}
+{"patient_id": 16, "diagnosis": "Diabetes", "status": "New", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:26"}
+{"patient_id": 17, "diagnosis": "Diabetes", "status": "New", "medication": "Medication A", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:27"}
+{"patient_id": 18, "diagnosis": "Diabetes", "status": "New", "medication": "Medication B", "department": "General Medicine", "timestamp": "2024-04-01 21:58:28"}
+{"patient_id": 19, "diagnosis": "Flu", "status": "Ongoing", "medication": "Medication D", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:29"}
+{"patient_id": 20, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication C", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:30"}
+{"patient_id": 21, "diagnosis": "Diabetes", "status": "Ongoing", "medication": "Medication D", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:31"}
+{"patient_id": 22, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication B", "department": "Cardiology", "timestamp": "2024-04-01 21:58:32"}
+{"patient_id": 23, "diagnosis": "Hypertension", "status": "Ongoing", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:33"}
+{"patient_id": 24, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication D", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:34"}
+{"patient_id": 25, "diagnosis": "Asthma", "status": "Ongoing", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:58:35"}
+{"patient_id": 26, "diagnosis": "Hypertension", "status": "New", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:36"}
+{"patient_id": 27, "diagnosis": "Hypertension", "status": "Ongoing", "medication": "Medication C", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:37"}
+{"patient_id": 28, "diagnosis": "Asthma", "status": "Resolved", "medication": "Medication C", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:38"}
+{"patient_id": 29, "diagnosis": "Diabetes", "status": "Resolved", "medication": "Medication D", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:39"}
+{"patient_id": 30, "diagnosis": "Hypertension", "status": "New", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:58:40"}
+{"patient_id": 31, "diagnosis": "Asthma", "status": "Resolved", "medication": "Medication C", "department": "Cardiology", "timestamp": "2024-04-01 21:58:41"}
+{"patient_id": 32, "diagnosis": "Diabetes", "status": "New", "medication": "Medication A", "department": "Cardiology", "timestamp": "2024-04-01 21:58:42"}
+{"patient_id": 33, "diagnosis": "COVID-19", "status": "New", "medication": "Medication C", "department": "Cardiology", "timestamp": "2024-04-01 21:58:43"}
+{"patient_id": 34, "diagnosis": "COVID-19", "status": "New", "medication": "Medication D", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:44"}
+{"patient_id": 35, "diagnosis": "Diabetes", "status": "New", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:58:45"}
+{"patient_id": 36, "diagnosis": "Flu", "status": "Ongoing", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:46"}
+{"patient_id": 37, "diagnosis": "COVID-19", "status": "New", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:58:47"}
+{"patient_id": 38, "diagnosis": "Asthma", "status": "Ongoing", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:48"}
+{"patient_id": 39, "diagnosis": "Asthma", "status": "New", "medication": "Medication A", "department": "Cardiology", "timestamp": "2024-04-01 21:58:49"}
+{"patient_id": 40, "diagnosis": "Flu", "status": "Ongoing", "medication": "Medication A", "department": "Cardiology", "timestamp": "2024-04-01 21:58:50"}
+{"patient_id": 41, "diagnosis": "COVID-19", "status": "Resolved", "medication": "Medication A", "department": "Cardiology", "timestamp": "2024-04-01 21:58:51"}
+{"patient_id": 42, "diagnosis": "Asthma", "status": "New", "medication": "Medication C", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:52"}
+{"patient_id": 43, "diagnosis": "COVID-19", "status": "New", "medication": "Medication A", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:53"}
+{"patient_id": 44, "diagnosis": "Flu", "status": "Ongoing", "medication": "Medication B", "department": "General Medicine", "timestamp": "2024-04-01 21:58:54"}
+{"patient_id": 45, "diagnosis": "Asthma", "status": "New", "medication": "Medication C", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:55"}
+{"patient_id": 46, "diagnosis": "Hypertension", "status": "Resolved", "medication": "Medication C", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:56"}
+{"patient_id": 47, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication C", "department": "Cardiology", "timestamp": "2024-04-01 21:58:57"}
+{"patient_id": 48, "diagnosis": "Diabetes", "status": "Ongoing", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:58:58"}
+{"patient_id": 49, "diagnosis": "Diabetes", "status": "Ongoing", "medication": "Medication D", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:58:59"}
+{"patient_id": 50, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication A", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:59:00"}
+{"patient_id": 51, "diagnosis": "COVID-19", "status": "Ongoing", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:59:01"}
+{"patient_id": 52, "diagnosis": "COVID-19", "status": "Resolved", "medication": "Medication A", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:59:02"}
+{"patient_id": 53, "diagnosis": "Asthma", "status": "Ongoing", "medication": "Medication A", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:59:03"}
+{"patient_id": 54, "diagnosis": "Flu", "status": "Resolved", "medication": "Medication A", "department": "Pediatrics", "timestamp": "2024-04-01 21:59:04"}
+{"patient_id": 55, "diagnosis": "Asthma", "status": "Resolved", "medication": "Medication A", "department": "General Medicine", "timestamp": "2024-04-01 21:59:05"}
+{"patient_id": 56, "diagnosis": "Flu", "status": "New", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:59:06"}
+{"patient_id": 57, "diagnosis": "Diabetes", "status": "Ongoing", "medication": "Medication D", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:59:07"}
+{"patient_id": 58, "diagnosis": "Hypertension", "status": "Resolved", "medication": "Medication B", "department": "Infectious Diseases", "timestamp": "2024-04-01 21:59:08"}
+{"patient_id": 59, "diagnosis": "Hypertension", "status": "New", "medication": "Medication D", "department": "Cardiology", "timestamp": "2024-04-01 21:59:09"}
+{"patient_id": 60, "diagnosis": "Flu", "status": "New", "medication": "Medication B", "department": "Pediatrics", "timestamp": "2024-04-01 21:59:10"}
