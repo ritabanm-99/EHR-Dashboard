@@ -28,4 +28,6 @@ To simulate a Electronic Health Record Database system, and perform streaming an
 
 3. `pip3 install streamlit`
 
-4. `streamlit run ehr_dashboard.py`
+4. `pip3 install plotly`
+   
+5. `streamlit run ehr_dashboard.py`
