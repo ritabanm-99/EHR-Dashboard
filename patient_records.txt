@@ -1,4 +1,3 @@
-
 {"patient_id": 1, "diagnosis": "Hypertension", "status": "Resolved", "medication": "Medication C", "department": "Cardiology", "timestamp": "2024-03-30 18:25:30"}
 {"patient_id": 2, "diagnosis": "Asthma", "status": "Resolved", "medication": "Medication A", "department": "Infectious Diseases", "timestamp": "2024-03-30 18:25:31"}
 {"patient_id": 3, "diagnosis": "Diabetes", "status": "New", "medication": "Medication B", "department": "Infectious Diseases", "timestamp": "2024-03-30 18:25:32"}
